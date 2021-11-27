@@ -19,4 +19,4 @@ services:
       - HUB_HOST=hub
       - CUCUMBER_OPTIONS="--tags '@delete'"
     volumes:
-      - ./output/result:.target/cucumber-reports
+      - ./output:/user/zaikov/target/cucumber-reports
